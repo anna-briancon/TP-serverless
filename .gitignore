@@ -1,0 +1,9 @@
+# Azure / Azurite
+azure/.azurite/
+azure/debug.log
+azure/.venv/
+azure/local.settings.json
+
+# Python
+__pycache__/
+*.pyc
