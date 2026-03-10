@@ -7,3 +7,8 @@ azure/local.settings.json
 # Python
 __pycache__/
 *.pyc
+
+# AWS / LocalStack
+aws/localstack/localstack-data/
+aws/output.json
+aws/build/

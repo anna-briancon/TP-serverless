@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "mon-bucket-tp"
+        },
+        "object": {
+          "key": "test.txt"
+        }
+      }
+    }
+  ]
+}

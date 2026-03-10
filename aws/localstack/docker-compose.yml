@@ -1,0 +1,13 @@
+services:
+  localstack:
+    image: localstack/localstack:latest
+    container_name: localstack-tp1
+    ports:
+      - "4566:4566"
+    environment:
+      - SERVICES=lambda,s3,dynamodb,iam,logs
+      - DEBUG=1
+      - PERSISTENCE=1
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./localstack-data:/var/lib/localstack
